@@ -1,0 +1,51 @@
+{
+    "data": {
+        "projects": [
+            {
+                "id": 0,
+                "project_name": "Employee Directory",
+                "description": "Randomly generate users which made possible by grabbing information through an API",
+                "technologies": "Fetch API, HTML, CSS, JavaScript",
+                "live_link": "https://janxavierv17.github.io/techdegree-employeedirectory-project-8/",
+                "github_link": "https://github.com/janxavierv17/techdegree-employeedirectory-project-8",
+                "image_urls": "/static/imgs/apiRequestv3.png"
+            },
+            {
+                "id": 1,
+                "project_name": "OOP - Guessing Game",
+                "description": "A browser-based, word guessing game: Phrase Hunter. A player will try to guess the phrase by selecting individual letters from an onscreen keyboard.",
+                "technologies": "OOP (Object-Oriented Programming, HTML, CSS, JavaScript",
+                "live_link": "https://janxavierv17.github.io/fs-oop_game-project-4/",
+                "github_link": "https://github.com/janxavierv17/fs-oop_game-project-4",
+                "image_urls": "/static/imgs/guessingGame.png"
+            },
+            {
+                "id": 2,
+                "project_name": "Data Pagination and Filtering",
+                "description": "Displaying a large amount of data on a web page can overwhelm a user with too much information. This project solves that problem by displaying a portion of the data with pagination.",
+                "technologies": "HTML, CSS, JavaScript",
+                "live_link": "https://janxavierv17.github.io/pagination-project2/",
+                "github_link": "https://github.com/janxavierv17/pagination-project2",
+                "image_urls": "/static/imgs/pagination.png"
+            },
+            {
+                "id": 4,
+                "project_name": "Interactive Form",
+                "description": "A form that collects information from users. I've decided to make a form since alot of websites/web app tend to collect basic information from users with regular expression to validate user inputs.",
+                "technologies": "Regular Expression, HTML, CSS, JavaScript",
+                "live_link": "https://janxavierv17.github.io/janv-interactiveform-project3/",
+                "github_link": "https://github.com/janxavierv17/janv-interactiveform-project3",
+                "image_urls": "/static/imgs/interactiveForm.png"
+            },
+            {
+                "id": 5,
+                "project_name": "Random Quote",
+                "description": "I created this project to practice my knowledge on basic JavaScript syntax and data structures. This project is a program that displays a randomly selected quote each time the user clicks the button",
+                "technologies": "Regular Expression, HTML, CSS, JavaScript",
+                "live_link": "https://janxavierv17.github.io/randomquote-project1/",
+                "github_link": "https://github.com/janxavierv17/randomquote-project1",
+                "image_urls": "/static/imgs/randomquote.png"
+            }
+        ]
+    }
+}

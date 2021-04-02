@@ -1,4 +1,10 @@
-<h1> Project - PortfolioV2 <br/>
+<h1> Project - PortfolioV2 </h1> <br/>
+To run my project you must first run the following codes: <br/>
+<pre> npm install & npm start </pre> <br/>
+
+<h2>Simple Error Handling </h2>
+I have created two pug templates which are error.pug and page-not-found.pug. These template will handle errors such as when an error has occured in my code and an error that handles routes where a specified link does not exist. <br/>
+
 I customized my portfolio and made changes on the following items: <br/>
 <ul>
     <li>Font - Roboto Slab (Google font)</li> <br/>

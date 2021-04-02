@@ -37,4 +37,25 @@ app.get("/projects/:id", (request, response) => {
     response.render("project", { title, description, technologies, images, liveLink, gitHub })
 })
 
+app.use((request, response, next) => {
+    const error = new Error("Not Found")
+    error.status = 404
+    next(error)
+})
+
+app.use((error, request, response, next) => {
+    response.locals.error = error;
+    if (error.status === 404) {
+        let error400 = error.status
+        response.status(error400)
+        response.render("page-not-found")
+    } else {
+        error.status = 500
+        let error500 = error.status
+        response.status(error500)
+        response.render("error")
+    }
+})
+
+
 app.listen(3000, () => { console.log("App.js is running in localhost:3000") })

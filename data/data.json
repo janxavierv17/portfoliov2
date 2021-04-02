@@ -31,7 +31,12 @@
                 ],
                 "live_link": "https://janxavierv17.github.io/fs-oop_game-project-4/",
                 "github_link": "https://github.com/janxavierv17/fs-oop_game-project-4",
-                "image_urls": "",
+                "image_urls": [
+                    "/static/imgs/phraseHunterLanding.png",
+                    "/static/imgs/phraseHunterGuessing.png",
+                    "/static/imgs/phraseHunterWon.png",
+                    "/static/imgs/phraseHunterLost.png"
+                ],
                 "thumbnail": "/static/imgs/guessingGame.png"
             },
             {
@@ -45,7 +50,11 @@
                 ],
                 "live_link": "https://janxavierv17.github.io/pagination-project2/",
                 "github_link": "https://github.com/janxavierv17/pagination-project2",
-                "image_urls": "",
+                "image_urls": [
+                    "/static/imgs/pagination1.png",
+                    "/static/imgs/pagination2.png",
+                    "/static/imgs/pagination3.png"
+                ],
                 "thumbnail": "/static/imgs/pagination.png"
             },
             {
@@ -60,7 +69,10 @@
                 ],
                 "live_link": "https://janxavierv17.github.io/janv-interactiveform-project3/",
                 "github_link": "https://github.com/janxavierv17/janv-interactiveform-project3",
-                "image_urls": "",
+                "image_urls": [
+                    "/static/imgs/interactiveForm2.png",
+                    "/static/imgs/interactiveForm1.png"
+                ],
                 "thumbnail": "/static/imgs/interactiveForm.png"
             },
             {
@@ -74,7 +86,11 @@
                 ],
                 "live_link": "https://janxavierv17.github.io/randomquote-project1/",
                 "github_link": "https://github.com/janxavierv17/randomquote-project1",
-                "image_urls": "",
+                "image_urls": [
+                    "/static/imgs/randomquote1.png",
+                    "/static/imgs/randomquote2.png",
+                    "/static/imgs/randomquote3.png"
+                ],
                 "thumbnail": "/static/imgs/randomquote.png"
             }
         ]

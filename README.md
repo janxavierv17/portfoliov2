@@ -1,5 +1,5 @@
 <h1> Project - PortfolioV2 </h1> <br/>
-To run my project you must first run the following codes: <br/>
+Please run the following line of codes in your terminal: <br/>
 <pre> npm install & npm start </pre> <br/>
 
 <h2>Simple Error Handling </h2>

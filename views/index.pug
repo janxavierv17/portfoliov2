@@ -11,7 +11,7 @@ block content
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
       each project in projects
         .cell
-          a(href=`${project.live_link}` target="_blank")
-            img.thumbnail(src=`${project.image_urls}`)
+          a(href=`/projects/${project.id}`)
+            img.thumbnail(src=`${project.thumbnail}`)
             h5= project.project_name
 

@@ -52,11 +52,13 @@ app.use((error, request, response, next) => {
     response.locals.error = error;
     if (error.status === 404) {
         let error400 = error.status
+        console.log(error.message)
         response.status(error400)
         response.render("page-not-found")
     } else {
         error.status = 500
         let error500 = error.status
+        console.log(error.message)
         response.status(error500)
         response.render("error")
     }
